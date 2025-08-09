@@ -85,9 +85,9 @@ MainTab:CreateToggle({
 
 MainTab:CreateSlider({
     Name = "Max Speed",
-    Range = {0, 75},
+    Range = {0, 100},
     Increment = 1,
-    CurrentValue = 38,
+    CurrentValue = 75,
     Flag = "MaxSpeed",
     Callback = function(Value)
         _G.maxSpeedValue = Value
